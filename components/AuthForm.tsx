@@ -12,7 +12,7 @@ import CustomForm from "./CustomForm";
 import { authFormSchema } from "@/lib/utils";
 import { Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { signIn, signUp } from "@/lib/action/user.action";
+import { signIn, signUp } from "@/lib/action/user.actions";
 import PlaidLink from "./PlaidLink";
 
 const AuthForm = ({ type }: { type: string }) => {

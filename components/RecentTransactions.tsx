@@ -61,11 +61,11 @@ const RecentTransactions = ({
 
             <TransactionsTable transactions={currentTransactions} />
 
-            {/* {totalPages > 1 && (
+            {totalPages > 1 && (
               <div className="my-4 w-full">
                 <Pagination totalPages={totalPages} page={page} />
               </div>
-            )} */}
+            )}
           </TabsContent>
         ))}
       </Tabs>

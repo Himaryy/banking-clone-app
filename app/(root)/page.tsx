@@ -3,8 +3,8 @@ import RecentTransactions from "@/components/RecentTransactions";
 // import RecentTransactions from '@/components/RecentTransactions';
 import RightSidebar from "@/components/RightSidebar";
 import TotalBalanceBox from "@/components/TotalBalanceBox";
-import { getAccount, getAccounts } from "@/lib/action/bank.action";
-import { getLoggedInUser } from "@/lib/action/user.action";
+import { getAccount, getAccounts } from "@/lib/action/bank.actions";
+import { getLoggedInUser } from "@/lib/action/user.actions";
 
 const Home = async ({ searchParams: { id, page } }: SearchParamProps) => {
   const currentPage = Number(page as string) || 1;
